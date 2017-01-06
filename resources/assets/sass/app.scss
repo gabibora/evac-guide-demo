@@ -1,0 +1,90 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.location-details {
+
+  h4 {
+
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+
+  }
+
+
+  .is-danger {
+
+    color:red;
+    margin-top: 5px;
+
+  }
+
+
+
+
+
+}
+
+
+.add-button {
+
+  margin-top: 10px;
+
+}
+
+.location-wrapper {
+
+  border:1px solid #dddddd;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+
+
+  .col-sm-1{
+
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+
+    .span {
+
+      margin-right: 3px;
+      font-size: 11px;
+
+    }
+
+
+  }
+
+  h5 {
+
+    margin-top: 5px;
+
+  }
+
+  .preview_wrapper{
+
+    overflow: hidden;
+
+  }
+
+
+  .preview_wrapper a{
+
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+
+  }
+
+
+
+
+}
